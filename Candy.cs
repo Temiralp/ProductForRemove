@@ -45,9 +45,6 @@ void CandyMovement()
 
             otherObje.transform.position = new Vector2(column, row);
 
-            gm.allCandy[column, row] = otherObje;
-            gm.allCandy[column+1, row] = this.gameObject;
-            this.gameObject.transform.position = new Vector2(column+1, row);
           
 
         }
